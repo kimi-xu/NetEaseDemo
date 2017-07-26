@@ -257,7 +257,7 @@ Demo.Module.follow = (function() {
 		} else {
 			// 验证通过，提交表单
 			Demo.Ajax(
-				url = 'http://study.163.com/webDev/login.htm',
+				url = 'https://study.163.com/webDev/login.htm',
 				method = 'get',
 				param = {
 					userName: md5(_userName.value),
@@ -294,7 +294,7 @@ Demo.Module.follow = (function() {
 	function followRequest() {
 		// 调用Ajax请求关注
 		Demo.Ajax(
-			url = 'http://study.163.com/webDev/attention.htm',
+			url = 'https://study.163.com/webDev/attention.htm',
 			method = 'get',
 			param = {},
 			callback = function(data) {
@@ -589,7 +589,7 @@ Demo.Module.hotCourse = (function() {
 	var course = Demo.$('.m-hotlist .list');	
 	// 默认加载前十门课程，5s更新一门
 	Demo.Ajax(
-		url = 'http://study.163.com/webDev/hotcouresByCategory.htm',
+		url = 'https://study.163.com/webDev/hotcouresByCategory.htm',
 		method = 'get',
 		param = {},
 		callback = showCourse,
