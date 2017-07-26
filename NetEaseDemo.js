@@ -497,7 +497,7 @@ Demo.Module.course = (function() {
     // 加载课程和页码函数
     function setContent(_pageNo, _psize, _type) {
 		Demo.Ajax(
-			url = 'http://study.163.com/webDev/couresByCategory.htm',
+			url = 'https://study.163.com/webDev/couresByCategory.htm',
 			method = 'get',
 			param = {
 				pageNo: _pageNo,
@@ -514,7 +514,7 @@ Demo.Module.course = (function() {
     // 加载课程函数
     function setCourse(_pageNo, _psize, _type) {
 		Demo.Ajax(
-			url = 'http://study.163.com/webDev/couresByCategory.htm',
+			url = 'https://study.163.com/webDev/couresByCategory.htm',
 			method = 'get',
 			param = {
 				pageNo: _pageNo,
