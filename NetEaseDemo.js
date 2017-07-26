@@ -609,23 +609,22 @@ Demo.Module.hotCourse = (function() {
 		course.innerHTML = template;
 		// 设置课程滚动定时器
 		var courseTimer = setTimeout(function() {
-			if (index >= 19) {
+			if (index > 19) {
 				index = 0;
-			} else{
-				// 删除第一个子节点
-				course.removeChild(course.firstChild);
-				// 创建更新节点
-				var node = document.createElement('li');
-				Demo.ClassUtil.addClass(node, 'f-cb');
-				node.innerHTML = '<img src="' + list[index].smallPhotoUrl
-			        + '" alt="课程图片"><p class="f-ellipsis">'
-					+ list[index].name + '</p><div class="u-num">'
-					+ list[index].learnerCount + '</div>';
-			    // 添加节点
-				course.appendChild(node);
-				index++;
-				courseTimer = setTimeout(arguments.callee, 5000);
-			};
+			} 
+			// 删除第一个子节点
+			course.removeChild(course.firstChild);
+			// 创建更新节点
+			var node = document.createElement('li');
+			Demo.ClassUtil.addClass(node, 'f-cb');
+			node.innerHTML = '<img src="' + list[index].smallPhotoUrl
+			       + '" alt="课程图片"><p class="f-ellipsis">'
+				+ list[index].name + '</p><div class="u-num">'
+				+ list[index].learnerCount + '</div>';
+			// 添加节点
+			course.appendChild(node);
+			index++;
+			courseTimer = setTimeout(arguments.callee, 5000);
 		}, 5000);
 		// 创建模板函数
 		function setTemplate(index) {
