@@ -58,7 +58,7 @@ a,a:hover{
 .u-logo{
 	width: 234px;
 	height: 22px;
-	background: url(image/logo.png) no-repeat;
+	background: url(logo.png) no-repeat;
 }
 /* 登录按钮元件 */
 .u-btn{
@@ -86,7 +86,7 @@ a,a:hover{
 	width: 9px;
 	height: 10px;
 	margin: 5px 5px 5px 0;
-	background: url(image/icon.png) -40px -75px no-repeat;
+	background: url(icon.png) -40px -75px no-repeat;
 }
 
 /* 自适应布局 */
@@ -160,7 +160,7 @@ a,a:hover{
 	content: '';
 	width: 15px;
 	height: 12px;
-	background: url(image/icon.png) -55px -75px no-repeat;
+	background: url(icon.png) -55px -75px no-repeat;
 }
 
 /* 关注模块 */
@@ -171,7 +171,7 @@ a,a:hover{
 	float: left;
 }
 .m-follow .follow,.m-follow .followsuc{
-	background: url(image/icon.png) no-repeat;
+	background: url(icon.png) no-repeat;
 	box-sizing: border-box;
 }
 /* 关注 */
@@ -229,7 +229,7 @@ a,a:hover{
 	float: right;
 	width: 20px;
 	height: 22px;
-	background: url(image/icon.png) 0 -75px no-repeat;
+	background: url(icon.png) 0 -75px no-repeat;
 	margin: 0 20px 0 25px;
 }
 .m-follow .icon:hover{
@@ -275,7 +275,7 @@ a,a:hover{
 	height: 10px;
 	top: 10px;
 	right: 10px;
-	background: url(image/icon.png) -70px -75px no-repeat;
+	background: url(icon.png) -70px -75px no-repeat;
 	cursor: pointer;
 }
 
@@ -299,13 +299,13 @@ a,a:hover{
 }
 /* 加载图片 */
 .m-banner .banner1{
-	background: url(image/banner1.jpg) center no-repeat;
+	background: url(banner1.jpg) center no-repeat;
 }
 .m-banner .banner2{
-	background: url(image/banner2.jpg) center no-repeat;
+	background: url(banner2.jpg) center no-repeat;
 }
 .m-banner .banner3{
-	background: url(image/banner3.jpg) center no-repeat;
+	background: url(banner3.jpg) center no-repeat;
 }
 /* 控制按钮 */
 .m-banner .pointer{
@@ -354,7 +354,7 @@ a,a:hover{
 	content: '';
 	width: 106px;
 	height: 87px;
-	background: url(image/logo.png) no-repeat;
+	background: url(logo.png) no-repeat;
 }
 .m-nav .open:before{
 	background-position: 0 -52px;
@@ -496,7 +496,7 @@ a,a:hover{
 	float: left;
 	width: 30px;
 	height: 20px;
-	background: url(image/icon.png) no-repeat;
+	background: url(icon.png) no-repeat;
 	cursor: pointer;
 }
 .m-tab .page .pre{
@@ -572,7 +572,7 @@ a,a:hover{
 	right: 20px;
 	width: 10px;
 	height: 10px;
-	background: url(image/icon.png) -70px -75px no-repeat;
+	background: url(icon.png) -70px -75px no-repeat;
 	cursor: pointer;
 }
 /* 最热排行 */
@@ -644,6 +644,6 @@ a,a:hover{
 	height: 16px;
 	top: 0;
 	right: -20px;
-	background: url(image/icon.png) -90px -75px no-repeat;
+	background: url(icon.png) -90px -75px no-repeat;
 	cursor: pointer;
 }
