@@ -481,10 +481,12 @@ a,a:hover{
 	margin-left: 0;
 }
 .m-tab .pop .intr{
+	height: 60px;
 	margin: 0;
 	padding: 15px 20px;
 	background-color: #f8f8f8;
 	font: 14px/24px 'microsoft yahei';
+	overflow: hidden;
 }
 /* 翻页器 */
 .m-tab .page .wrap{
