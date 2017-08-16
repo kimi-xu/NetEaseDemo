@@ -323,10 +323,10 @@ Demo.Module.banner = (function() {
 	// 设置切换图片定时器
 	var imgTimer = setTimeout(transImg, 4000);
 	// 设置鼠标事件
-	Demo.EventUtil.addHandler(banner, 'mouseover', function() {
+	Demo.EventUtil.addHandler(banner, 'mouseenter', function() {
 		clearTimeout(imgTimer);
 	});
-	Demo.EventUtil.addHandler(banner, 'mouseout', function() {
+	Demo.EventUtil.addHandler(banner, 'mouseleave', function() {
 		imgTimer = setTimeout(transImg, 4000);
 	});
 	// 设置点击事件代理
@@ -396,10 +396,10 @@ Demo.Module.imgWrap = (function() {
 	// 设置图片滚动定时器
 	var timer = setTimeout(moveImg, 15);
 	// 设置鼠标事件
-	Demo.EventUtil.addHandler(wrap, 'mouseover', function() {
+	Demo.EventUtil.addHandler(wrap, 'mouseenter', function() {
 		clearTimeout(timer);
 	});
-	Demo.EventUtil.addHandler(wrap, 'mouseout', function() {
+	Demo.EventUtil.addHandler(wrap, 'mouseleave', function() {
 		timer = setTimeout(moveImg, 15);
 	});
 	// 图片滚动函数
